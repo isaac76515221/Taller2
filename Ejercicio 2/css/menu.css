@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    
+    
+}
+
+.container{
+    text-align: center;
+    margin-top: 5%;
+    border-style: solid;
+    margin-bottom: 1%;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: darkturquoise;
+
+}
+
+.menu-principal{
+    text-align: center;
+    border-style: inset;
+    border-width: 5px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: indianred;
+    border-color: deepskyblue;
+}
+
+.container2{
+    text-align: start;
+}
+
+.container3{
+    text-align: start;
+}

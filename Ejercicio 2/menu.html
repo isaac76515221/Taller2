@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="js/menu.js"></script>
+    
+    <title>Menú</title>
+</head>
+<body>
+    <div class="menu-title">
+        <div class="container">
+            <h1 class="display-4">Mega Pollo</h1>
+            <p>Que combo prefieres?</p>
+            <div class="menu">
+                <h3>Super combo</h3>
+                <p>Tres piezas de pollo, ensalada, papas fritas y bebida grande de su elección</p>
+                <h3>Combo personal</h3>
+                <p>Dos piezas de pollo, papa frita y bebida mediana</p>
+                <h3>Combo infantil</h3>
+                <p>1 pieza de pollo, papas fritas y una bebida pequeña</p>
+            </div>
+        </div>
+        <hr>
+        <div class="menu-principal">
+            <h2>Combos y productos</h2>
+            <div class="container2">
+                <h4>Combos:</h4>
+                <input type="radio" name="status" id="super" value="Super" checked>Super combo
+                <input type="radio" name="status" id="personal" value="Personal">Combo personal
+                <input type="radio" name="status" id="infantil" value="Infantil">Combo infantil
+            </div>
+            <div class="container3">
+                <h4>Productos:</h4>
+                <input type="checkbox" id="ensa">Ensalada $1.50
+                <input type="checkbox" id="papas">Papas fritas $1.25
+                <input type="checkbox" id="PG">Pieza de pollo grande $1.75
+                <input type="checkbox" id="PM">Pieza de pollo mediana $1.50
+                <br>
+                <br>
+                <input type="checkbox" id="PP">Pieza de pollo pequeña $1.25
+                <input type="checkbox" id="BG">Bebida grande $1.50
+                <input type="checkbox" id="BM">Bebida mediana $1.25
+                <br>
+                <br>
+                <input type="checkbox" id="BP">Bebida pequeña $1.00
+                <input type="checkbox" id="coffe">Cafe $0.50
+                <input type="checkbox" id="postre">Postre $1.25
+            </div>
+            <div>
+                <h3>Sugerencias:</h3>
+                <div id="view"></div>
+                <textarea id="area" name="sugerencias" id="message" value="Tu mensaje" class="form-control"></textarea>
+            </div>
+            <div>
+                <label for="">Total a pagar: $</label><textarea name="submitbutton" id="total" readonly onmousedown="return false;"></textarea>
+                <br>
+                <br>
+                <input type="button" name="btnsend" value="Ordenar" id="enviar">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
